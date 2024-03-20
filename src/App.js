@@ -9,6 +9,8 @@ import Simulation from './Components/Simulation';
 import Code from './Components/Code';
 import Quiz1 from './Components/Quiz1';
 import Results from './Components/Results';
+import References from './Components/References';
+import Team from './Components/team';
 
 function App() {
   return (
@@ -40,6 +42,12 @@ function App() {
               </Route>
               <Route exact path='/Results'>
                 <Results/>
+              </Route>
+              <Route exact path='/References'>
+                <References/>
+              </Route>
+              <Route exact path='/Team'>
+                <Team/>
               </Route>
           </Switch>
       </Router>
